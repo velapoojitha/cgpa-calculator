@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M.Tech CGPA Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>M.Tech CGPA Calculator</h2>
+        <p>Enter Grades for each subject (A, B, C, D, E, F):</p>
+
+        <div id="semesters">
+            <!-- Semesters will be dynamically inserted here -->
+        </div>
+
+        <button id="calculateOverallBtn" onclick="calculateOverallCGPA()" disabled>Calculate Overall CGPA</button>
+        <h3 id="overallCGPA"></h3>
+        <p id="promotionMessage" class="error"></p>
+    </div>
+
+</body>
+<script src="script.js"></script>
+</html>
