@@ -17,9 +17,9 @@ A simple and interactive **CGPA (Cumulative Grade Point Average) calculator** bu
 
 ## 🛠️ Tech Stack
 
-- **HTML5**
-- **CSS3**
-- **JavaScript (Vanilla JS)**
+- **HTML**
+- **CSS**
+- **JavaScript**
 
 ---
 
